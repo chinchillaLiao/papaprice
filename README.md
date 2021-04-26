@@ -1,2 +1,2 @@
-# pamomo
-爬MOMO商品名稱與價格
+# papaprice
+爬MOMO、PCHOME、ETMALL、SHOPEE、YAHOO 商品名稱與價格
