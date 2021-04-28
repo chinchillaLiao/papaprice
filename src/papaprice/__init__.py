@@ -1,7 +1,5 @@
-from papaprice.papaprice import (
-    PP_momo, 
-    PP_pchome,
-    PP_etmall,
-    PP_yahoo,
-    PP_shopee,
-    )
+from papaprice.yahoo import Yahoo
+from papaprice.momo import Momo
+from papaprice.pchome import Pchome
+from papaprice.etmall import Etmall
+from papaprice.shopee import Shopee
