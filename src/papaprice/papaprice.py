@@ -42,10 +42,12 @@ class PapaPrice():
         return name, price
         
     def query(self, i_code):
-        response = self._request(i_code)
-        name, price = self._parse(response)
-        return name, price
-
+        try:
+            response = self._request(i_code)
+            name, price = self._parse(response)
+            return name, price
+        except:
+            return None, None
         
 
         
