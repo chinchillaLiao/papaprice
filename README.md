@@ -2,6 +2,8 @@
 爬MOMO、PCHOME、ETMALL、SHOPEE、YAHOO 商品名稱與價格
 
 ```python
+from papaprice import Etmall, Momo, Pchome, Shopee, Yahoo
+
 # https://www.etmall.com.tw/i/2886010
 etmall = Etmall()
 print('etmall', etmall.query('2886010'))
