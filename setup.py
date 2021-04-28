@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='papaprice',
-    version='0.0.3',
+    version='0.0.4',
     author='GaryLiao',
     description='crawl the name and price of each product from e-commerce websites in Taiwan.',
     url='https://github.com/chinchillaLiao/papaprice',
