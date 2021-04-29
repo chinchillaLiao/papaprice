@@ -43,7 +43,7 @@ print('etmall', etmall.query('2886010'))
 # etmall ('Apple iPhone 12 Pro 128G 智慧型 5G 手機', 32388)
 ```
 
-# proxies 設定，以 [Bright Data](https://brightdata.grsm.io/twforthewin) 為例 ->[連結](https://brightdata.grsm.io/twforthewin)
+# proxies 設定，以服務供應商 [Bright Data](https://brightdata.grsm.io/twforthewin) 為例 ->[連結](https://brightdata.grsm.io/twforthewin)
 ```python
 clientname = '你在Bright Data的用戶名' #注意：每種不同的Proxy服務，有不同的用戶名。
 password = '對應的密碼'
