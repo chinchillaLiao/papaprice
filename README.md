@@ -29,3 +29,16 @@ yahoo = Yahoo()
 print('yahoo', yahoo.query('9205108'))
 # yahoo ('Apple iPhone 12 PRO 128G 6.1吋智慧型手機', 32600)
 ```
+
+# 支援 proxies 使用，避免大量查詢被封鎖。
+```python
+proxies = {
+    'https':'https://your.proxy.link',
+    'http':'http://your.proxy.link',
+}
+
+# https://www.etmall.com.tw/i/2886010
+etmall = Etmall(proxies)
+print('etmall', etmall.query('2886010'))
+# etmall ('Apple iPhone 12 Pro 128G 智慧型 5G 手機', 32388)
+```
