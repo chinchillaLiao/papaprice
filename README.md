@@ -55,3 +55,6 @@ etmall = Etmall(proxies)
 print('etmall', etmall.query('2886010'))
 # etmall ('Apple iPhone 12 Pro 128G 智慧型 5G 手機', 32388)
 ```
+
+# 未來版本
+目前僅可透過已知的商品編號進行爬取，未來預計加入關鍵字搜尋功能，透過購物網站的搜尋功能進行爬取。
