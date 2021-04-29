@@ -42,3 +42,15 @@ etmall = Etmall(proxies)
 print('etmall', etmall.query('2886010'))
 # etmall ('Apple iPhone 12 Pro 128G 智慧型 5G 手機', 32388)
 ```
+
+# proxies 設定，以 Bright Data 為例
+```python
+clientname = '你在Bright Data的用戶名' #注意：每種不同的Proxy服務，有不同的用戶名。
+password = '對應的密碼'
+proxy = f'https://{username}:{pwssword}@zproxy.lum-superproxy.io:22225
+proxies = {'https':proxy}
+
+# https://www.etmall.com.tw/i/2886010
+etmall = Etmall(proxies)
+print('etmall', etmall.query('2886010'))
+# etmall ('Apple iPhone 12 Pro 128G 智慧型 5G 手機', 32388)
